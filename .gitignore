@@ -1,0 +1,42 @@
+# Dependencies and generated output
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+
+# Local state, credentials and execution artifacts
+/data/
+/demo-projects/
+/config/local.json
+.env
+.env.*
+!.env.example
+*.log
+*.sqlite
+*.sqlite3
+*.sqlite-*
+*.sqlite3-*
+*.db
+*.db-*
+*.bak
+*.backup
+/backups/
+/logs/
+/tmp/
+.runners-test-*/
+*.pem
+*.key
+*.pfx
+*.p12
+id_rsa*
+id_ed25519*
+
+# Host configuration and local automation metadata
+.zcode/
+.agents/
+.claude/
+.codex/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

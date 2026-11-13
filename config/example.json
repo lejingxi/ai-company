@@ -1,0 +1,18 @@
+{
+  "host": "127.0.0.1",
+  "port": 3180,
+  "realExecutionEnabled": false,
+  "zcode": {
+    "enabled": false,
+    "electronPath": "C:/Program Files/ZCode/ZCode.exe",
+    "cliPath": "C:/Program Files/ZCode/resources/glm/zcode.cjs",
+    "environmentMode": "existing-user",
+    "timeoutMs": 180000
+  },
+  "docker": {
+    "executable": "docker",
+    "image": "node:24-alpine",
+    "timeoutMs": 60000
+  },
+  "monitoringEnabled": false
+}
